@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenit - Il Tuo Sito Giovanile</title>
+    <style>
+        /* Stili CSS qui... */
+        body {
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        nav {
+            background: #444;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        article h3 {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zenit</h1>
+        <p>Esplora il mondo con noi</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Chi Siamo</a>
+        <a href="#">Articoli</a>
+        <a href="#">Contattaci</a>
+    </nav>
+    <section>
+        <h2>Benvenuti a Zenit</h2>
+        <p>Benvenuti nel nostro mondo di conoscenza, avventura e ispirazione. Esplora articoli su una vasta gamma di argomenti interessanti.</p>
+    </section>
+    <section>
+        <h2>Ultimi Articoli</h2>
+        <article>
+            <h3>Titolo dell'Articolo 1</h3>
+            <p>Contenuto dell'articolo 1...</p>
+        </article>
+        <article>
+            <h3>Titolo dell'Articolo 2</h3>
+            <p>Contenuto dell'articolo 2...</p>
+        </article>
+    </section>
+    <footer>
+        <p>&copy; <?php echo date("Y"); ?> Zenit - Il Tuo Sito Giovanile</p>
+    </footer>
+    
+    <script>
+        // JavaScript per migliorare la funzionalità del sito
+        // Esempio: aggiungi un evento al clic di un elemento
+        document.addEventListener('DOMContentLoaded', function() {
+            const element = document.querySelector('h1');
+            element.addEventListener('click', function() {
+                alert('Benvenuti su Zenit!');
+            });
+        });
+    </script>
+</body>
+</html>
